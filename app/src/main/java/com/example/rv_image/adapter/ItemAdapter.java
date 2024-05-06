@@ -85,6 +85,10 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ItemViewHolder
 
             imageView = binding.ivItem;
             textView = binding.tvItem;
+
+            // escuchando cuando  se hacen un click en la vista
+               itemView.setOnClickListener(this);
+
         }
 
         @Override

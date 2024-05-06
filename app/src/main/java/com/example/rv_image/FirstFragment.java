@@ -44,7 +44,7 @@ public class FirstFragment extends Fragment  implements  ItemAdapter.SendItem{
 
     }
 
-    @Override
+   @Override
     public void onDestroyView() {
         super.onDestroyView();
         binding = null;
